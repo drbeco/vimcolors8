@@ -17,7 +17,7 @@ The color schemes files are not original. They needed to be modified, specially 
 
 * Add to your `.vimrc`file:
 
-    Plug 'drbeco/vimcolors8'
+     Plug 'drbeco/vimcolors8'
 
 then reload `.vimrc` and run `:PlugInstall`
 
