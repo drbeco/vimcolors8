@@ -47,7 +47,11 @@ function! s:SetColors(args)
     call s:HourColor()
   else
     let s:mycolors = split(a:args)
-    echo 'List of colors set from argument (space-separated names)'
+    if s:mycolors[0] == 'silent' "start silently
+        let s:mycolors=s:mycolors[1:] "remove the first item of a list
+    else
+        echo 'List of colors set from argument (space-separated names)'
+    endif
   endif
   let s:mycolors=filter(copy(s:mycolors), 'index(s:mycolors, v:val, v:key+1)==-1') "remove dups
 endfunction
