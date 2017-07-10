@@ -53,7 +53,7 @@ hi CursorLine      cterm=NONE ctermbg=234 guibg=#1c1c1c
 hi Cursor		   cterm=NONE
 hi lCursor		   cterm=NONE
 hi MatchParen      term=NONE cterm=NONE ctermfg=0 ctermbg=2 guibg=#00DD00
-hi Comment         cterm=bold ctermfg=6 gui=bold guifg=#00ffff
+hi Comment         cterm=NONE ctermfg=6 gui=bold guifg=#00ffff
 hi Constant        cterm=bold ctermfg=40 gui=bold guifg=#00d700 guibg=#000000
 hi Special         ctermfg=63 guifg=#5f5fff
 hi Identifier      ctermfg=131 guifg=#af5f5f
